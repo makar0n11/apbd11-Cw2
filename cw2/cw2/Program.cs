@@ -17,3 +17,18 @@ static double Avg(int[] tab)
 } 
 
 Console.WriteLine(Avg(new []{1,2,3,4}));
+
+static int MaxValue(int[] tab)
+{
+    int max = tab[0];
+    for (int i = 1; i < tab.Length ; i++ )
+    {
+        if (tab[i] > max)
+        {
+            max = tab[i];
+        }
+    }
+    return max;
+}
+
+Console.WriteLine(MaxValue(new []{1,4,3,2}));
