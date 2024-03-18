@@ -7,9 +7,9 @@ Console.WriteLine("commit 3");
 static double Avg(int[] tab)
 {
     int sum = 0;
-    foreach (int number in tab)
+    foreach (int numBER in tab)
     {
-        sum += number;
+        sum += numBER;
     }
 
     double avg = (double) sum / tab.Length;
