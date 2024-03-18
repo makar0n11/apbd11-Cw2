@@ -9,10 +9,10 @@ static double Avg(int[] tab)
     int sum = 0;
     foreach (int num in tab)
     {
-        sum += sum + num;
+        sum += num;
     }
 
-    double avg = sum / tab.Length;
+    double avg = (double) sum / tab.Length;
     return avg;
 } 
 
